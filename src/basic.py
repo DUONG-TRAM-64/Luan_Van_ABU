@@ -2,6 +2,7 @@
 # ---------------------------------- func-01 ---------------------------------- #  
 def load_data():
     print("\n-Đang đọc dữ liệu...")
+    # File Train_balance và Test 
     train_df = pd.read_parquet('/kaggle/input/150-cse-new/train_cse_150.parquet')
     test_df = pd.read_parquet('/kaggle/input/150-cse-new/test_cse.parquet')
     
@@ -11,6 +12,7 @@ def load_data():
     return train_df, test_df
 # --------------------------------- func - 02 -------------------------------- #
 def preprocess_data(train_df, test_df):
+    # Tạo file Valid
     train_df, val_df = train_test_split(train_df, test_size=0.125, random_state=112)
 
     print("Validation shape:", val_df.shape)
