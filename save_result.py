@@ -1,4 +1,4 @@
-
+ 
 def get_model_name(num):
     model_names = {
         1: "CNN", 

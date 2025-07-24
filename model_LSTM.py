@@ -1,4 +1,4 @@
-def model_LSTM(n, input_shape, num_classes):
+def model_LSTM(n, input_shape, num_classes): 
     print(f"\n- Xây dựng mô hình LSTM - {n} LSTM layers")
     model = Sequential()
     neuron_per_layer = {

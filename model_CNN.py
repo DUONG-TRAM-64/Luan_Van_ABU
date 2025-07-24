@@ -1,4 +1,4 @@
-def model_CNN(n, input_shape, num_classes):
+def model_CNN(n, input_shape, num_classes): 
     print(f"\n- Xây dựng mô hình CNN - {n} Conv1D layers")
     model = Sequential()
     neuron_per_layer = {

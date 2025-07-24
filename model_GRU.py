@@ -1,4 +1,4 @@
-def model_GRU(n, input_shape, num_classes):
+def model_GRU(n, input_shape, num_classes): 
     print(f"\n\U0001F6E0️ Xây dựng mô hình GRU - {n} GRU layers")
     model = Sequential()
     neuron_per_layer = {

@@ -1,4 +1,4 @@
-def model_DNN(n, input_shape, num_classes):
+def model_DNN(n, input_shape, num_classes): 
     print(f"\n- Xây dựng mô hình DNN - {n} Dense layers")
     model = Sequential()
     neuron_per_layer = {
