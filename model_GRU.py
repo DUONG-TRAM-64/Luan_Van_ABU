@@ -1,5 +1,5 @@
-def model_LSTM(n, input_shape, num_classes):
-    print(f"\n- Xây dựng mô hình LSTM - {n} LSTM layers")
+def model_GRU(n, input_shape, num_classes):
+    print(f"\n\U0001F6E0️ Xây dựng mô hình GRU - {n} GRU layers")
     model = Sequential()
     neuron_per_layer = {
         # -------------------------------- 256 neurons ------------------------------- #
@@ -18,22 +18,22 @@ def model_LSTM(n, input_shape, num_classes):
     if n not in neuron_per_layer:
         raise ValueError(f"Số layer n={n} chưa được định nghĩa trong layer_list. Chọn từ 1 đến 5.")
     layer_list = neuron_per_layer[n]
-    
-    # Thêm các tầng LSTM
+
+    # Thêm các tầng GRU
     for i, units in enumerate(layer_list):
         if i == 0:
             # Tầng đầu tiên cần input_shape
             if n == 1:
                 # Nếu chỉ có 1 tầng, không trả về sequences
-                model.add(LSTM(units, input_shape=input_shape, return_sequences=False, name=f'lstm_{i+1}'))
+                model.add(GRU(units, input_shape=input_shape, return_sequences=False, name=f'gru_{i+1}'))
             else:
-                model.add(LSTM(units, input_shape=input_shape, return_sequences=True, name=f'lstm_{i+1}'))
+                model.add(GRU(units, input_shape=input_shape, return_sequences=True, name=f'gru_{i+1}'))
         elif i == len(layer_list) - 1:
             # Tầng cuối không trả về sequences
-            model.add(LSTM(units, return_sequences=False, name=f'lstm_{i+1}'))
+            model.add(GRU(units, return_sequences=False, name=f'gru_{i+1}'))
         else:
             # Các tầng giữa trả về sequences
-            model.add(LSTM(units, return_sequences=True, name=f'lstm_{i+1}'))
+            model.add(GRU(units, return_sequences=True, name=f'gru_{i+1}'))
         model.add(Dropout(0.2, name=f'dropout_{i+1}'))
     
     model.add(BatchNormalization(name='batch_normalization'))
@@ -42,4 +42,3 @@ def model_LSTM(n, input_shape, num_classes):
     model.compile(optimizer=RMSprop(learning_rate=1e-3), loss='categorical_crossentropy', metrics=['accuracy'])
     model.summary()
     return model
-
