@@ -1,0 +1,22 @@
+TÓM TẮT KẾT QUẢ - DBN
+==================================================
+Tên mô hình: DBN
+Số layer: 1
+Số mẫu train: 16,392
+Số mẫu test: 168,521
+Số epoch đã train: 100
+Best validation accuracy: 0.9049
+Test accuracy cuối cùng: 0.9028
+Số lượng tham số: 10,759
+Thời gian huấn luyện: 25.31 giây
+Tổng thời gian suy luận: 8.46 giây
+Suy luận trung bình mỗi mẫu: 0.0502 ms
+
+- Tổng kết tài nguyên:
+- Tổng thời gian chạy: 44.21 giây
+- RAM tăng: 41.16 MB
+- GPU RAM đã dùng thêm: 2.00 MB
+- Mức sử dụng GPU trung bình: 3.44 %
+- Mức sử dụng bộ nhớ GPU tối đa: 0.00 %
+- Nhiệt độ GPU trung bình: 38.78 °C
+- Công suất tiêu thụ trung bình: 36.34 W

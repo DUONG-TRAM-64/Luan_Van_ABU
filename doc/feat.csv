@@ -1,0 +1,93 @@
+STT,Tên ??c tr?ng ,Ý ngh?a,STT,Tên ??c tr?ng ,Ý ngh?a
+1,Destination Port,C?ng m?ng mà gói tin h??ng ??n trên thi?t b? ?ích,41,Packet Length Mean,Kích th??c gói trung bình
+2,Flow Duration,T?ng th?i gian (micro giây) c?a lu?ng k?t n?i,42,Packet Length Std,M?c ?? bi?n ??ng kích th??c
+3,Total Fwd Packets,S? l??ng gói ???c g?i t? ngu?n ??n ?ích,43,FIN Flag Count,C? k?t thúc k?t n?i
+4,Total Backward Packets,S? l??ng gói ???c g?i t? ?ích v? ngu?n,44,SYN Flag Count,C? b?t ??u k?t n?i
+5,Total Length of Fwd Packets,T?ng kích th??c (bytes) c?a gói g?i t? ngu?n,45,RST Flag Count,C? thi?t l?p l?i k?t n?i
+6,Total Length of Bwd Packets,T?ng kích th??c (bytes) c?a gói g?i t? ?ích,46,PSH Flag Count,??y d? li?u ??n ?ng d?ng
+7,Fwd Packet Length Max,Gói l?n nh?t g?i t? ngu?n,47,ACK Flag Count,C? xác nh?n nh?n d? li?u
+8,Fwd Packet Length Min,Gói nh? nh?t g?i t? ngu?n,48,URG Flag Count,C? kh?n c?p
+9,Fwd Packet Length Mean,Trung bình kích th??c gói g?i t? ngu?n,49,CWE Flag Count,C? b?t th??ng trong giao ti?p
+10,Fwd Packet Length Std,?o ?? phân tán kích th??c gói,50,ECE Flag Count,ECN-capable flag (congestion control)
+11,Bwd Packet Length Max,Gói l?n nh?t g?i t? ?ích,51,Down/Up Ratio,D? li?u t?i xu?ng so v?i t?i lên
+12,Bwd Packet Length Min,Gói nh? nh?t g?i t? ?ích,52,Average Packet Size,Trung bình toàn b? gói
+13,Bwd Packet Length Mean,Trung bình kích th??c gói g?i t? ?ích,53,Avg Fwd Segment Size,M?i TCP segment t? ngu?n
+14,Bwd Packet Length Std,M?c ?? phân tán kích th??c ph?n h?i,54,Avg Bwd Segment Size,M?i TCP segment t? ?ích
+15,Flow Bytes/s,T?c ?? truy?n d? li?u (byte/giây),55,Fwd Header Length.1,Có th? b? trùng l?p v?i c?t 35
+16,Flow Packets/s,T?c ?? g?i gói,56,Fwd Avg Bytes/Bulk,Trung bình byte m?i ??t truy?n
+17,Flow IAT Mean,Trung bình th?i gian gi?a hai gói liên ti?p,57,Fwd Avg Packets/Bulk,Trung bình s? gói m?i ??t truy?n
+18,Flow IAT Std,Bi?n ??ng th?i gian gi?a các gói,58,Fwd Avg Bulk Rate,T?c ?? d? li?u theo ??t
+19,Flow IAT Max,Th?i gian dài nh?t gi?a hai gói,59,Bwd Avg Bytes/Bulk,Trung bình byte m?i ??t ph?n h?i
+20,Flow IAT Min,Th?i gian ng?n nh?t gi?a hai gói,60,Bwd Avg Packets/Bulk,Trung bình gói trong ??t ph?n h?i
+21,Fwd IAT Total,T?ng th?i gian gi?a các gói t? ngu?n,61,Bwd Avg Bulk Rate,T?c ?? ph?n h?i theo ??t
+22,Fwd IAT Mean,Trung bình th?i gian gi?a các gói t? ngu?n,62,Subflow Fwd Packets,Gói chia nh? lu?ng t? ngu?n
+23,Fwd IAT Std,Bi?n ??ng th?i gian gi?a các gói ngu?n,63,Subflow Fwd Bytes,T?ng byte trong subflow
+24,Fwd IAT Max,L?n nh?t gi?a 2 gói t? ngu?n,64,Subflow Bwd Packets,Gói chia nh? lu?ng t? ?ích
+25,Fwd IAT Min,Nh? nh?t gi?a 2 gói t? ngu?n,65,Subflow Bwd Bytes,T?ng byte trong subflow
+26,Bwd IAT Total,T?ng th?i gian gi?a các gói t? ?ích,66,Init_Win_bytes_forward,TCP Window size t?i b?t ??u
+27,Bwd IAT Mean,Trung bình th?i gian gi?a các gói t? ?ích,67,Init_Win_bytes_backward,TCP Window size t?i b?t ??u
+28,Bwd IAT Std,Bi?n ??ng th?i gian gi?a các gói t? ?ích,68,act_data_pkt_fwd,Gói tin ch?a payload t? ngu?n
+29,Bwd IAT Max,L?n nh?t gi?a 2 gói t? ?ích,69,min_seg_size_forward,?o?n TCP nh? nh?t
+30,Bwd IAT Min,Nh? nh?t gi?a 2 gói t? ?ích,70,Active Mean,Trung bình th?i gian gi?a 2 gói ho?t ??ng
+31,Fwd PSH Flags,S? l??ng gói tin có c? PSH,71,Active Std,Bi?n ??ng th?i gian ho?t ??ng
+32,Bwd PSH Flags,S? l??ng gói tin ph?n h?i có c? PSH,72,Active Max,Ho?t ??ng lâu nh?t gi?a gói
+33,Fwd URG Flags,Gói có c? URG t? ngu?n,73,Active Min,Kho?ng ho?t ??ng ng?n nh?t
+34,Bwd URG Flags,Gói có c? URG t? ?ích,74,Idle Mean,Kho?ng th?i gian không ho?t ??ng
+35,Fwd Header Length,T?ng kích th??c ph?n ??u gói (header) t? ngu?n,75,Idle Std,Bi?n ??ng th?i gian r?nh
+36,Bwd Header Length,T?ng kích th??c ph?n ??u t? ?ích,76,Idle Max,Kho?ng ngh? dài nh?t
+37,Fwd Packets/s,T?c ?? g?i gói t? ngu?n,77,Idle Min,Kho?ng ngh? ng?n nh?t
+38,Bwd Packets/s,T?c ?? g?i gói t? ?ích,78,Label,Phân lo?i lo?i t?n công ho?c Benign
+39,Packet Length Min,Gói nh? nh?t trong lu?ng,79,Protocol,"Giao th?c TCP, UDP"
+40,Packet Length Max,Gói l?n nh?t trong lu?ng,80,Timestamp,Th?i ?i?m gói ???c ghi nh?n
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,STT ,Ý ngh?a,,,
+,1 – 4,??c tr?ng c? b?n c?a k?t n?i m?ng,,,
+,5 – 16,??c tr?ng c?a các gói tin m?ng,,,
+,17 – 22,??c tr?ng c?a các lu?ng m?ng,,,
+,23 – 45,Th?ng kê c?a các lu?ng m?ng,,,
+,46 – 63,??c tr?ng liên quan ??n n?i dung l?u l??ng m?ng,,,
+,64 – 67,??c tr?ng c?a các lu?ng con trong m?ng,,,
+,68 – 79,??c tr?ng l?u l??ng dùng chung,,,
+,80 – 83,??c tr?ng c? b?n c?a k?t n?i m?ng (l?p l?i t? 1–4),,,

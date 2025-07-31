@@ -1,0 +1,22 @@
+TÓM TẮT KẾT QUẢ - MLP
+==================================================
+Tên mô hình: MLP
+Số layer: 5
+Số mẫu train: 629,839
+Số mẫu test: 138,329
+Số epoch đã train: 100
+Best validation accuracy: 0.9689
+Test accuracy cuối cùng: 0.9677
+Số lượng tham số: 14,566
+Thời gian huấn luyện: 391.14 giây
+Tổng thời gian suy luận: 7.94 giây
+Suy luận trung bình mỗi mẫu: 0.0574 ms
+
+- Tổng kết tài nguyên:
+- Tổng thời gian chạy: 409.22 giây
+- RAM tăng: 494.98 MB
+- GPU RAM đã dùng thêm: 2.00 MB
+- Mức sử dụng GPU trung bình: 18.06 %
+- Mức sử dụng bộ nhớ GPU tối đa: 0.00 %
+- Nhiệt độ GPU trung bình: 44.13 °C
+- Công suất tiêu thụ trung bình: 35.82 W

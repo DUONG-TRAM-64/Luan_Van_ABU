@@ -1,0 +1,4 @@
+Model,Source_File,,precision,recall,f1-score,support
+DNN,report_01_DNN_1_lay.csv,weighted avg,0.9927,0.9904,0.9912,138329.0
+DBN,report_01_DBN_1_lay.csv,weighted avg,0.9928,0.9908,0.9915,138329.0
+MLP,report_01_MLP_1_lay.csv,weighted avg,0.9929,0.9912,0.9917,138329.0

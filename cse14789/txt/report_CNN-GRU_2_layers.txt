@@ -1,0 +1,22 @@
+TÓM TẮT KẾT QUẢ - CNN-GRU
+==================================================
+Tên mô hình: CNN-GRU
+Số layer: 2
+Số mẫu train: 629,839
+Số mẫu test: 138,329
+Số epoch đã train: 100
+Best validation accuracy: 0.9966
+Test accuracy cuối cùng: 0.9962
+Số lượng tham số: 230,470
+Thời gian huấn luyện: 1077.90 giây
+Tổng thời gian suy luận: 11.23 giây
+Suy luận trung bình mỗi mẫu: 0.0812 ms
+
+- Tổng kết tài nguyên:
+- Tổng thời gian chạy: 1104.49 giây
+- RAM tăng: 454.81 MB
+- GPU RAM đã dùng thêm: 0.00 MB
+- Mức sử dụng GPU trung bình: 54.95 %
+- Mức sử dụng bộ nhớ GPU tối đa: 10.00 %
+- Nhiệt độ GPU trung bình: 58.87 °C
+- Công suất tiêu thụ trung bình: 77.01 W

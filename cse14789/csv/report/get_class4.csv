@@ -1,0 +1,8 @@
+Model,Source_File,Train_Time_s,Inference_Time_s,Best_Val_Accuracy,Test_Accuracy,Avg_GPU_Util_%,Max_GPU_Mem_Util_%,Avg_GPU_Temp_C,Avg_Power_Draw_W
+CNN,report_CNN_4_lay.csv,509.58,7.69,0.9968,9.9626,42.26,15.0,56.14,67.67
+DNN,report_DNN_4_lay.csv,380.68,7.69,0.9954,9.9453,15.4,0.0,44.01,35.83
+DBN,report_DBN_4_lay.csv,365.13,7.78,0.9936,9.9162,16.47,0.0,44.59,35.92
+MLP,report_MLP_4_lay.csv,373.86,8.07,0.9923,9.917,16.26,0.0,44.18,35.89
+CNN-LSTM,report_CNN-LSTM_4_lay.csv,1374.06,13.96,0.9967,9.9628,54.59,8.0,55.83,69.67
+CNN-GRU,report_CNN-GRU_4_lay.csv,1353.88,13.42,0.9967,9.9644,54.74,7.0,55.78,67.96
+CNN-DNN,report_CNN-DNN_4_lay.csv,563.44,7.9,0.9957,9.9529,42.71,15.0,56.49,69.46

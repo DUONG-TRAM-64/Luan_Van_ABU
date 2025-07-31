@@ -1,0 +1,8 @@
+Model,Source_File,,precision,recall,f1-score,support
+CNN,report_class_CNN_3_lay.csv,weighted avg,0.9963,0.9959,0.996,138329.0
+DNN,report_class_DNN_3_lay.csv,weighted avg,0.9961,0.9955,0.9957,138329.0
+DBN,report_class_DBN_3_lay.csv,weighted avg,0.995,0.9941,0.9944,138329.0
+MLP,report_class_MLP_3_lay.csv,weighted avg,0.9943,0.9918,0.9926,138329.0
+CNN-LSTM,report_class_CNN-LSTM_3_lay.csv,weighted avg,0.9967,0.9964,0.9965,138329.0
+CNN-GRU,report_class_CNN-GRU_3_lay.csv,weighted avg,0.9967,0.9964,0.9965,138329.0
+CNN-DNN,report_class_CNN-DNN_3_lay.csv,weighted avg,0.9968,0.9964,0.9966,138329.0

@@ -1,0 +1,22 @@
+TÓM TẮT KẾT QUẢ - CNN-DNN
+==================================================
+Tên mô hình: CNN-DNN
+Số layer: 2
+Số mẫu train: 629,839
+Số mẫu test: 138,329
+Số epoch đã train: 100
+Best validation accuracy: 0.9970
+Test accuracy cuối cùng: 0.9964
+Số lượng tham số: 113,990
+Thời gian huấn luyện: 537.24 giây
+Tổng thời gian suy luận: 8.03 giây
+Suy luận trung bình mỗi mẫu: 0.0581 ms
+
+- Tổng kết tài nguyên:
+- Tổng thời gian chạy: 555.92 giây
+- RAM tăng: 540.93 MB
+- GPU RAM đã dùng thêm: 0.00 MB
+- Mức sử dụng GPU trung bình: 42.54 %
+- Mức sử dụng bộ nhớ GPU tối đa: 16.00 %
+- Nhiệt độ GPU trung bình: 57.19 °C
+- Công suất tiêu thụ trung bình: 71.81 W
